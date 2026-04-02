@@ -1,0 +1,28 @@
+# Dependencias
+/vendor/
+composer.phar
+
+# Entorno
+.env
+.env.local
+
+# Logs
+*.log
+
+# Caché y Archivos temporales
+/storage/framework/views/*.php
+/storage/framework/cache/data/*
+/bootstrap/cache/*.php
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
